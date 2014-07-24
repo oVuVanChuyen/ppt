@@ -1,4 +1,4 @@
-var time_delay = 1500
+var time_delay = 1500;
 function fade(ele,index){
     ele.animate({
       opacity: 0.5,

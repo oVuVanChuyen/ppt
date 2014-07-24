@@ -1,4 +1,4 @@
-var time_delay =  1500
+var time_delay =  1500;
 $( document ).on( "pageinit", "[data-role='page'].background", function() {
   var page = "#" + $( this ).attr( "id" ),
       next = $( this ).jqmData( "next" ),
