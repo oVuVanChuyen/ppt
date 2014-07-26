@@ -128,7 +128,7 @@ function fade(ele,index){
   });
   }
 
-  function slideDown(ele){
+function slideDown(ele){
   ele.animate({
     bottom: "5%",
     bottom: "0%",
@@ -162,4 +162,17 @@ function animation(ele,index){
       },time_delay);
     }
   });
+}
+
+function lac(el){
+  el.css("transform", "rotate(10deg)");
+  setTimeout(function() {
+    el.css("transform", "rotate(0deg)");
+  },200);
+  setTimeout(function() {
+    el.css("transform", "rotate(-10deg)");
+  },400);
+  setTimeout(function() {
+    el.css("transform", "rotate(0deg)");
+  },600);
 }
